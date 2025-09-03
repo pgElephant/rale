@@ -1,0 +1,32 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+	autocrlf = input
+	editor = vim
+[remote "origin"]
+	url = https://github.com/pgElephant/rale.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+[user]
+	name = dev
+	email = admin@pgelephant.com
+[pull]
+	rebase = true
+[rebase]
+	autoStash = true
+	autosquash = true
+[fetch]
+	prune = true
+[push]
+	autoSetupRemote = true
+[color]
+	ui = auto
+[status]
+	branch = true
+	submoduleSummary = true
